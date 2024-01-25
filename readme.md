@@ -1,21 +1,21 @@
-```markdown
 # Fast Api Post Task
 
 A brief description of what this project does and who it's for.
 
 ## Installation 
 
-Install my-project with npm
+Install project with pip
 
 ```bash 
-  git clone https://github.com/user/project
-  cd project
+  git clone https://github.com/javadsalman/fastapi-task.git
+  cd fastapi-task
   pip install -r requirements.txt
 ```
+Create `.env` file and fill it according to .env.example to setup database connection
 
 ## Running
 
-To run tests, run the following command
+To run project, run the following command
 
 ```bash
 uvicorn src.main:app --reload
@@ -44,13 +44,13 @@ uvicorn src.main:app --reload
 #### Sign Up
 
 ```http
-  DELETE /sugnup
+  POST /sugnup
 ```
 
 #### Login
 
 ```http
-  DELETE /login
+  POST /login
 ```
 
 ## Authors
@@ -60,4 +60,3 @@ uvicorn src.main:app --reload
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-```
